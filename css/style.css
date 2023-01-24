@@ -25,9 +25,14 @@ p {
 .bg-color {
   background: #f3f3f3;
 }
+.footer-color {
+  color: #cfcfcf;
+}
 .practice,
 .client,
-.faq {
+.faq,
+.contact,
+footer {
   margin-top: 120px;
 }
 /* banner part */
@@ -91,3 +96,8 @@ p {
   background: #f3f3f3;
 }
 /* end contact */
+/* footer */
+footer {
+  padding: 120px 0;
+}
+/* end footer */
