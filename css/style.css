@@ -18,6 +18,11 @@ h6 {
   font-weight: 800;
   color: #414040;
 }
+.practice,
+.client,
+.faq {
+  margin-top: 120px;
+}
 /* banner part */
 .hero-banner {
   background-image: url(../images/banner.png);
@@ -31,10 +36,6 @@ h6 {
 }
 /* end banner part */
 /* pratice part */
-.practice,
-.client {
-  margin-top: 120px;
-}
 .practice-item {
   padding: 70px;
 }
@@ -62,4 +63,18 @@ h6 {
 .carousel-caption.slide-info {
   top: 25%;
 }
-/* // end client */
+/*  end client */
+/* faq part */
+.accordion-bg {
+  background: #f3f3f3;
+  border-radius: 8px;
+}
+.accordion-bg:focus,
+.accordion-bg {
+  outline: none;
+  box-shadow: none;
+}
+.faq-margin {
+  margin-bottom: 30px;
+}
+/* end faq part */
