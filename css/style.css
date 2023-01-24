@@ -32,7 +32,8 @@ p {
 .client,
 .faq,
 .contact,
-footer {
+footer,
+address {
   margin-top: 120px;
 }
 /* banner part */
