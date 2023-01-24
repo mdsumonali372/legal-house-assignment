@@ -65,13 +65,61 @@
                 ></a>
               </li>
             </ul>
-            <button class="btn btn-danger py-3 px-4 d-block mx-auto mx-lg-0">
+            <button
+              class="btn btn-danger py-3 px-4 d-block mx-auto mx-lg-0"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
               <a href="#" class="text-white">Free Consultation</a>
             </button>
           </div>
         </div>
       </nav>
     </header>
+    <div class="container">
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                Welcome To Our Website
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Here you can learn programming and earn more money.So, stay our
+                website. Thanks for visiting our website.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- // end header -->
     <!-- banner part -->
     <section class="banner mt-5 mx-3 mx-md-0">
