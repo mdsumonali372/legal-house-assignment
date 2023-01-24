@@ -18,6 +18,13 @@ h6 {
   font-weight: 800;
   color: #414040;
 }
+p {
+  color: #707070;
+}
+/* common css */
+.bg-color {
+  background: #f3f3f3;
+}
 .practice,
 .client,
 .faq {
@@ -66,7 +73,6 @@ h6 {
 /*  end client */
 /* faq part */
 .accordion-bg {
-  background: #f3f3f3;
   border-radius: 8px;
 }
 .accordion-bg:focus,
@@ -78,3 +84,10 @@ h6 {
   margin-bottom: 30px;
 }
 /* end faq part */
+/* contact */
+.input-item:focus {
+  box-shadow: none;
+  border: none;
+  background: #f3f3f3;
+}
+/* end contact */
